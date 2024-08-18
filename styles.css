@@ -1,0 +1,108 @@
+/* Resetando margens e preenchimento padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #d63384;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #d63384;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo principal do conteúdo */
+main {
+    padding: 20px;
+}
+
+#main-content {
+    text-align: center;
+}
+
+#main-content img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #d63384;
+    border-radius: 10px;
+}
+
+#cantadas {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cantadas button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cantadas button:hover {
+    background-color: #c52b74;
+}
+
+#cantada-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #d63384;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #ffcccb;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #d63384;
+    font-size: 0.9em;
+}
